@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Minha Empresa</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Transforme sua Vida</h1>
+            <p>Descubra como podermos ajudar você a alcançar seus objetivos.</p>
+            <button class="cta-button">Saiba Mais</button>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre Nós</h2>
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <p>Somos uma empresa dedicada a ajudar pessoas a transformarem suas vidas através de soluções inovadoras e personalizadas.</p>
+                    <p>Com anos de experiência e uma equipe de especialistas, estamos prontos para guiá-lo em sua jornada de crescimento pessoal e profissional.</p>
+                </div>
+                <div class="sobre-imagem">
+                    <img src="https://via.placeholder.com/400x300" alt="Sobre nós">
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="beneficios">
+            <h2>Beneficios</h2>
+            <div class="beneficios-grid">
+                <div class="beneficios-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Crecimento Pessoal</h3>
+                    <p>Desenvolva habilidades essenciais para o seu sucesso pessoal e profissional</p>
+                </div>
+                <div class="beneficios-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Desenvolvimento Proficional</h3>
+                    <p>Aprimore suas competências e destaque-se no mercado de trabalho</p>
+                </div>
+                <div class="beneficios-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Bem-estar Emocional</h3>
+                    <p>Alcance equilíbrio e satisfação em todas as áreas da sua vida.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Entre em Contato</h2>
+            <form id="contato-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Minha Empresa - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
